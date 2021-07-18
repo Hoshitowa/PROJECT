@@ -5,6 +5,11 @@ fun main() {
 //    Human().Hello()
     val h = Human()
     h.Hello()
+   var age : Int = 25
+    age = age.plus(1)
+    val weight = 65.5f;
+    val enroll : Boolean = true
+    println(age)
 }
 
 class Human {
